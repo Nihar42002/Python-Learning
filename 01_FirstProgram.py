@@ -1,3 +1,3 @@
-print("Nihar Parwani.","\nMy is age 18.")
+print("Nihar Parwani.","\nMy age is 18.")
 print(23)
 print(23+45)

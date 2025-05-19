@@ -25,4 +25,26 @@ print(var[1])
 #OR:-
 print(list(Student.values())[0])
 
-#This methods 
+#This methods return all the value in the form of tuples as a pair and we can use as a list also.
+print(Student.items())
+#OR
+#we can also convert the above dictionary into list:
+print(list(Student.items()))
+Var = list(Student.items())
+print(Var[0])
+print(Var[1])
+
+#This method help to ignore the value when we have ask to return wrong key
+# And this method will Ignore that error and run the pending right code.
+print(Student.get("Name"))
+print(Student.get("City"))
+
+#This method is use to update the new key aur to change the value of that key.
+Language={
+    "Hindi":"B2",
+    "English":"B1",
+    "Germany":"A1"
+}
+Student.update(Language)
+print(Student)
+

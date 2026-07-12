@@ -52,6 +52,6 @@ print("\n \n")
 
 # WAF to convert the USD to INR
 def Rupees(dollar):
-      return dollar*85
+      return dollar*96
 print("USD to INR: ",Rupees(int(input("Enter the dollar: "))),"rupees")
 print("\n \n")

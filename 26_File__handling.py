@@ -89,6 +89,6 @@ f.seek(0)  # Move the cursor to the beginning of the file
 data = f.read()  # Read the entire file
 print(data)  # Print the data
 f.close()  # Close the file
-#
+
 
 

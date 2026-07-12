@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Generate Practical (no prompt)",
+      "type": "shell",
+      "command": "py -3 generate_practical.py --github-file practice_set1/ATM.java --github-user Nihar42002 --github-repo JAVA-PROJECTS --college \"SARDAR VALLABHBHAI PATEL INSTITUTE OF TECHNOLOGY\" --subject \"Analysis and Design of Algorithms\" --subject_code \"BE04000241\" --practical 01 --title \"Selection Sort\" --subtitle \"\" --outtext \"(Program output will appear here)\" --enroll 240410107092 --logo \"C:\\Users\\parwa\\Desktop\\image1.jpg\"",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
